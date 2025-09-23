@@ -93,3 +93,28 @@
 {
     flex: 3;
 }
+
+.contents
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contents-img
+{
+    display: flex;
+    height: 87vh;
+    flex: 0 1 auto;
+}
+
+.contents-img img
+{
+    max-height: 100%;
+    height: 100%;
+    width: auto;
+    max-width: 95vw;
+    object-fit: contain;
+}

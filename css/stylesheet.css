@@ -94,6 +94,11 @@
     flex: 3;
 }
 
+body
+{
+    font-family: sans-serif;
+}
+
 .contents
 {
     display: flex;

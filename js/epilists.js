@@ -18,8 +18,8 @@ async function loadJSONEpisodes(code)
             elem.innerHTML = elem.innerHTML +
             '<h3><a href="../Mag/'+obj.number+'.html">'+
             '第'+obj.episodes+'話:'+
-            obj.number.substr(0,4)+'年'+
-            obj.number.substr(4)+'月号</a></h3>';
+            String(obj.number).substr(0,4)+'年'+
+            String(obj.number).substr(4)+'月号</a></h3>';
         }
 
     }

@@ -2,7 +2,7 @@ async function loadJSONWorks(code)
 {
     try
     {
-        let jsoncode = '../json/'+code+'.json';
+        let jsoncode = '../jsonMag/'+code+'.json';
         const response = await fetch(jsoncode);
         if (!response.ok)
         {

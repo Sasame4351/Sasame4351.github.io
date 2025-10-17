@@ -16,7 +16,7 @@ async function loadJSONEpisodes(code)
         {
             const obj = episodesJSON.find(item => item.episodes == i+1);
             elem.innerHTML = elem.innerHTML +
-            '<h3><a href="../Mag/'+obj.number+'.html">'+
+            '<h3><a href="../Mag/'+String(obj.number).substr(2,4)+'.html">'+
             '第'+obj.episodes+'話:'+
             String(obj.number).substr(0,4)+'年'+
             String(obj.number).substr(4)+'月号</a></h3>';

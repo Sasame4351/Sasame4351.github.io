@@ -1,4 +1,4 @@
-async function loadJSONWorks(code)
+async function loadWorkslists(code)
 {
     try
     {

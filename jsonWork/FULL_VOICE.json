@@ -1,83 +1,126 @@
-[
-	{
-		"episodes": 1,
-		"number": 202411,
-		"guest": false,
-		"order": 16,
-		"page": 141,
-		"pages": 13,
-		"colorpage": 2
-	},
-	{
-		"episodes": 2,
-		"number": 202412,
-		"guest": false,
-		"order": 18,
-		"page": 151,
-		"pages": 12,
-		"colorpage": 0
-	},
-	{
-		"episodes": 3,
-		"number": 202501,
-		"guest": false,
-		"order": 3,
-		"page": 27,
-		"pages": 12,
-		"colorpage": 0
-	},
-	{
-		"episodes": 4,
-		"number": 202502,
-		"guest": false,
-		"order": 9,
-		"page": 73,
-		"pages": 10,
-		"colorpage": 2
-	},
-	{
-		"episodes": 5,
-		"number": 202503,
-		"guest": false,
-		"order": 7,
-		"page": 65,
-		"pages": 10,
-		"colorpage": 0
-	},
-	{
-		"episodes": 6,
-		"number": 202504,
-		"guest": false,
-		"order": 4,
-		"page": 31,
-		"pages": 10,
-		"colorpage": 0
-	},
-	{
-		"episodes": 7,
-		"number": 202505,
-		"guest": false,
-		"order": 14,
-		"page": 125,
-		"pages": 10,
-		"colorpage": 0
-	},
-	{
-		"episodes": 8,
-		"number": 202506,
-		"guest": false,
-		"order": 8,
-		"page": 75,
-		"pages": 8,
-		"colorpage": 2
-	},
-	{
-		"episodes": 9,
-		"number": 202508,
-		"guest": false,
-		"order": 4,
-		"page": 29,
-		"pages": 10,
-		"colorpage": 0
-	}
-]
+{
+	"info":
+	[
+		{
+			"author":"科戸コウ",
+			"story":"王道お仕事四コマ。"
+		}
+	],
+
+	"character":
+	[
+		{
+			"order":1,
+			"name":"乙雛きなり",
+			"read":"おとひな ―",
+			"id":false,
+			"description":"声優事務所「鶴舞カンパニー」新入社員。第一話から登場。"
+		},
+		{
+			"order":2,
+			"name":"百千月和奏",
+			"read":"もちづき わかな",
+			"id":false,
+			"description":"鶴舞カンパニーの特待生。第一話から登場。"
+		},
+		{
+			"order":3,
+			"name":"一宮姫芽",
+			"read":"いちみや ひめ",
+			"id":false,
+			"description":"鶴舞カンパニーの特待生。第二話から登場。"
+		},
+		{
+			"order":4,
+			"name":"阿万里十彩",
+			"read":"あまり といろ",
+			"id":false,
+			"description":"鶴舞カンパニーの特待生。第二話から登場。"
+		}
+	],
+
+	"list":
+	[
+		{
+			"episodes": 1,
+			"number": 202411,
+			"guest": false,
+			"order": 16,
+			"page": 141,
+			"pages": 13,
+			"colorpage": 2
+		},
+		{
+			"episodes": 2,
+			"number": 202412,
+			"guest": false,
+			"order": 18,
+			"page": 151,
+			"pages": 12,
+			"colorpage": 0
+		},
+		{
+			"episodes": 3,
+			"number": 202501,
+			"guest": false,
+			"order": 3,
+			"page": 27,
+			"pages": 12,
+			"colorpage": 0
+		},
+		{
+			"episodes": 4,
+			"number": 202502,
+			"guest": false,
+			"order": 9,
+			"page": 73,
+			"pages": 10,
+			"colorpage": 2
+		},
+		{
+			"episodes": 5,
+			"number": 202503,
+			"guest": false,
+			"order": 7,
+			"page": 65,
+			"pages": 10,
+			"colorpage": 0
+		},
+		{
+			"episodes": 6,
+			"number": 202504,
+			"guest": false,
+			"order": 4,
+			"page": 31,
+			"pages": 10,
+			"colorpage": 0
+		},
+		{
+			"episodes": 7,
+			"number": 202505,
+			"guest": false,
+			"order": 14,
+			"page": 125,
+			"pages": 10,
+			"colorpage": 0
+		},
+		{
+			"episodes": 8,
+			"number": 202506,
+			"guest": false,
+			"order": 8,
+			"page": 75,
+			"pages": 8,
+			"colorpage": 2
+		},
+		{
+			"episodes": 9,
+			"number": 202508,
+			"guest": false,
+			"order": 4,
+			"page": 29,
+			"pages": 10,
+			"colorpage": 0
+		}
+	]
+}

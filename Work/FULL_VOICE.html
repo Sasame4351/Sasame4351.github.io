@@ -20,13 +20,7 @@
             <img src="https://www.dokidokivisual.com/wordpress/wp-content/uploads/2025/08/書影帯なし-768x1090.jpg">
         </div>
         <div>
-            <dl class="sasasa">
-                <dt class="aaa">作者</dt>
-                <dd class="f1">科戸コウ</dd>
-                <dt class="aaa">連載開始号</dt>
-                <dd class="f1">2024年11月号</dd>
-                <dt class="aaa">話数</dt>
-                <dd class="f1">12</dd>
+            <dl class="sasasa" id="workinfo">
             </dl>
         </div>
     </div>
@@ -34,37 +28,12 @@
         <h2>
             あらすじ
         </h2>
-        <p>
-            <a href="#sakura"><ruby>人形<rt>オートマトン</rt></ruby></a>が随所で活躍する近未来の尾道が舞台。
-        </p>
+        <div id="workstory"></div>
         <hr>
         <h2>
             キャラクター
         </h2>
-        <h3>
-            乙雛きなり(おとひな ―)
-        </h3>
-        <p>
-            声優事務所「鶴舞カンパニー」新入社員。第一話から登場。
-        </p>
-        <h3>
-            百千月和奏(もちづき わかな)
-        </h3>
-        <p>
-            鶴舞カンパニーの特待生。第一話から登場。
-        </p>
-        <h3>
-            一宮姫芽(いちみや ひめ)
-        </h3>
-        <p>
-            鶴舞カンパニーの特待生。第二話から登場。
-        </p>
-        <h3>
-            阿万里十彩(あまり といろ)
-        </h3>
-        <p>
-            鶴舞カンパニーの特待生。第二話から登場。
-        </p>
+        <div id="workcharacter"></div>
         <hr>
         <h2>
             各話リスト
@@ -81,5 +50,7 @@
     </div>
     <script src="../js/epilists.js"></script>
     <script>loadEpisodeslists("FULL_VOICE");</script>
+    <script src="../js/workinfo.js"></script>
+    <script>loadWorksinfo("FULL_VOICE");</script>
 </body>
 </html>

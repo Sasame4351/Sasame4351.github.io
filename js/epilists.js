@@ -10,11 +10,12 @@ async function loadEpisodeslists(code)
         }
 
         const episodesJSON = await response.json();
+        const list = episodesJSON.list;
 
         let elem = document.getElementById("episodes");
-        for(let i=0;i<episodesJSON.length;i++)
+        for(let i=0;list.length;i++)
         {
-            const obj = episodesJSON.find(item => item.episodes === i+1);
+            const obj = list.find(item => item.episodes === i+1);
             elem.innerHTML = elem.innerHTML +
             '<h3><a href="../Mag/'+String(obj.number).substring(2,6)+'.html">'+
             '第'+obj.episodes+'話:'+

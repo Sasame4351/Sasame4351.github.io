@@ -1,0 +1,40 @@
+{
+	"info":
+	[
+		{
+			"author":"文月",
+			"story":"とある高校の写真部が舞台。"
+		}
+	],
+
+	"character":
+	[
+		{
+			"order":1,
+			"name":"乙木ゆずる",
+			"read":"おとぎ ―",
+			"id":false,
+			"description":"転校生。校則に従い、何らかの部活に入ろうとする。"
+		},
+		{
+			"order":2,
+			"name":"K",
+			"read":"K",
+			"id":false,
+			"description":"写真部OB。Kは仮名。"
+		}
+	],
+
+	"list":
+	[
+		{
+			"episodes": 1,
+			"number": 202507,
+			"guest": true,
+			"order": 20,
+			"page": 185,
+			"pages": 8,
+			"colorpage": 0
+		}
+	]
+}

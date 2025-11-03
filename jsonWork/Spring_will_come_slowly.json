@@ -14,35 +14,52 @@
 			"name":"朝比奈悠季",
 			"read":"あさひな ゆうき",
 			"id":false,
-			"description":"東京から尾道に来た。第一話から登場。"
+			"description":
+			[
+				"東京から尾道に来た。第一話から登場。"
+			]
 		},
 		{
 			"order":2,
 			"name":"朝日奈さくら",
 			"read":"あさひな ―",
 			"id":"sakura",
-			"description":"<ruby>人形<rt>オートマトン</rt></ruby>の少女。第一話から登場。"
+			"description":
+			[
+				"<ruby>人形<rt>オートマトン</rt></ruby>の少女。第一話から登場。",
+				"悠季たちと触れ合い、人間らしさが見えてくるシーンも増えた。"
+			]
 		},
 		{
 			"order":3,
 			"name":"靭草梅",
 			"read":"うつぼぐさ まい",
 			"id":false,
-			"description":"<ruby>人形<rt>オートマトン</rt></ruby>に興味がある。第二話から登場。"
+			"description":
+			[
+				"<ruby>人形<rt>オートマトン</rt></ruby>に興味がある。第二話から登場。"
+			]
 		},
 		{
 			"order":4,
 			"name":"楠風佳",
 			"read":"くすのき ふうか",
 			"id":false,
-			"description":"悠季・梅の共通の友人。第二話から登場。"
+			"description":
+			[
+				"悠季・梅の共通の友人。第二話から登場。"
+			]
 		},
 		{
 			"order":5,
 			"name":"八幡木彩愛",
 			"read":"やはたぎ あやめ",
 			"id":false,
-			"description":"モデルをしている。第三話から登場。"
+			"description":
+			[
+				"モデルをしている。第三話から登場。",
+				"気配り上手な一方、さくらからは「自分の感情を置き去りにしているように見える」と指摘される。"
+			]
 		}
 	],
 

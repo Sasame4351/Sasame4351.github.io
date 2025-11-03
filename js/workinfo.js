@@ -37,12 +37,36 @@ async function loadWorksinfo(code)
 
 
         let workcharacter = document.getElementById("workcharacter");
-        for(let i=0;i<characterJSON.length;i++)
+        let spoiler = document.getElementsByClassName("depth");
+
+        function character()
         {
-            const obj = characterJSON.find(item => item.order === i+1);
-            workcharacter.innerHTML = workcharacter.innerHTML +
-            '<h3>' + obj.name + '(' + obj.read + ')' + '</h3>' +
-            '<p>' + obj.description + '</p>'
+            workcharacter.innerHTML = "";
+
+            for(let i=0;i<characterJSON.length;i++)
+            {
+                const obj = characterJSON.find(item => item.order === i+1);
+                const description = obj.description;
+                let html = '<h3>'+obj.name+'('+obj.read+')'+'</h3>';
+                html += '<p>'+description[0]+'</p>';
+
+                for(let j=0;j<spoiler.length;j++)
+                {
+                    if(spoiler[j].checked && description[j+1])
+                    {
+                        html += '<p>'+description[j+1]+'</p>'
+                    }
+                }
+
+                workcharacter.innerHTML += html;
+            }
+        }
+
+        character();
+
+        for(const cb of spoiler)
+        {
+            cb.addEventListener("change",character);
         }
     }
     catch (err)

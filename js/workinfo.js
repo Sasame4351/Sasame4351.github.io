@@ -15,25 +15,50 @@ async function loadWorksinfo(code)
         const listJSON = worksJSON.list;
 
 
-        let workinfo = document.getElementById("workinfo");
-
-        let firstnum = listJSON.find(item => item.episodes === 1);
-        let lastnum = listJSON.find(item => item.episodes === listJSON.length);
-
-        workinfo.innerHTML = workinfo.innerHTML +
-        '<dt class="aaa">作者</dt>' +
-        '<dd class="f1">' + infoJSON.author + '</dd>' +
-        '<dt class="aaa">連載開始号</dt>' +
-        '<dd class="f1">' + String(firstnum.number).substring(0,4) + '年' +
-        String(firstnum.number).substring(4,6) + '月号' + '</dd>' +
-        '<dt class="aaa">話数</dt>' +
-        '<dd class="f1">' + lastnum.episodes + '</dd>';
+        if(document.getElementById("headkiraracarat" != null))
+        {
+            let headhtml = document.getElementById("headkiraracarat");
+            headhtml.innerHTML +=
+            '<meta charset="utf-8" />'+
+            '<title>キャラット雑感 '+infoJSON.title+'</title>'+
+            '<meta name="description" content="まんがタイムきららキャラットの感想を垂れ流す"></meta>'+
+            '<meta name="viewport" content="width = device-width, user-scalable = 1">'+
+            '<link rel="stylesheet" href="/css/stylesheet.css"></link>';
+        }
 
 
-        let workstory = document.getElementById("workstory");
+        if(document.getElementById("pagetitle") != null)
+        {
+            let pagetitle = document.getElementById("pagetitle");
+            pagetitle.innerHTML += 'キャラット雑感 '+infoJSON.title;
+        }
 
-        workstory.innerHTML = workstory.innerHTML +
-        '<p>' + infoJSON.story + '</p>';
+
+        if(document.getElementById("workinfo") != null)
+        {
+            let workinfo = document.getElementById("workinfo");
+
+            let firstnum = listJSON.find(item => item.episodes === 1);
+            let lastnum = listJSON.find(item => item.episodes === listJSON.length);
+
+            workinfo.innerHTML = workinfo.innerHTML +
+            '<dt class="aaa">作者</dt>' +
+            '<dd class="f1">' + infoJSON.author + '</dd>' +
+            '<dt class="aaa">連載開始号</dt>' +
+            '<dd class="f1">' + String(firstnum.number).substring(0,4) + '年' +
+            String(firstnum.number).substring(4,6) + '月号' + '</dd>' +
+            '<dt class="aaa">話数</dt>' +
+            '<dd class="f1">' + lastnum.episodes + '</dd>';
+        }
+
+
+        if(document.getElementById("workstory") != null)
+        {
+            let workstory = document.getElementById("workstory");
+
+            workstory.innerHTML = workstory.innerHTML +
+            '<p>' + infoJSON.story + '</p>';
+        }
 
 
         let workcharacter = document.getElementById("workcharacter");

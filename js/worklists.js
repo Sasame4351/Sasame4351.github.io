@@ -11,11 +11,11 @@ async function loadWorkslists(code)
 
         const worksJSON = await response.json();
 
-        let elem = document.getElementById("works");
+        let worklist = document.getElementById("works");
         for(let i=0;i<worksJSON.length;i++)
         {
             const obj = worksJSON.find(item => item.order === i+1);
-            elem.innerHTML = elem.innerHTML +
+            worklist.innerHTML +=
             '<p><a href="../Work/'+obj.tag+'.html">'+
             obj.title +'</a></p>';
         }

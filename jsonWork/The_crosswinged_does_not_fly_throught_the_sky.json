@@ -1,0 +1,58 @@
+{
+	"info":
+	[
+		{
+			"title":"十字トンボは空を飛ばない",
+			"read":"じゅうじトンボはをそらをとばない",
+			"author":"織日ちひろ",
+			"manga":"虫原",
+			"story":"再会した友人とともに同人活動に励む、社会人の四コマ。"
+		}
+	],
+
+	"character":
+	[
+		{
+			"order":1,
+			"name":"伊藤凪波",
+			"read":"いとう ななみ",
+			"id":false,
+			"description":
+			[
+				"P.N.やまおこうき。同人小説の執筆をしている。第一話から登場。"
+			]
+		},
+		{
+			"order":2,
+			"name":"青砥馨",
+			"read":"あおと かおり",
+			"id":false,
+			"description":
+			[
+				"H.N.まりもっと。凪波の高校時代の友人で、絵を描いている。第一話から登場。"
+			]
+		}
+	],
+
+	"list":
+	[
+		{
+			"episodes":1,
+			"number":202411,
+			"guest":true,
+			"order":12,
+			"page":107,
+			"pages":8,
+			"colorpage":2
+		},
+		{
+			"episodes":2,
+			"number":202412,
+			"guest":true,
+			"order":11,
+			"page":91,
+			"pages":8,
+			"colorpage":0
+		}
+	]
+}
